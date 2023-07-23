@@ -1,0 +1,129 @@
+.hero {
+    background-color: #0A2640;
+    padding-top: 32px;
+    padding-bottom: 56px;
+}
+
+.hero_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero_content {
+    max-width: 567px;
+}
+
+.hero_title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+}
+
+.hero_text {
+    color: #F1F1F1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 16px;
+}
+
+.hero_btn {
+    margin-top: 40px;
+}
+
+.btn1 {
+    padding: 16px 56px;
+    border-radius: 56px;
+    border: 2px solid #69E6A6;
+    background-color: #65E4A3;
+    color: #0A2640;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-right: 24px;
+}
+
+.btn2 {
+    padding: 16px 56px;
+    border-radius: 56px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+@media screen and (max-width:885px) {
+    .hero_container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .hero_btn {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .hero_container {
+        align-items: center;
+    }
+
+    .hero_title {
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 22px;
+    }
+
+    .hero_text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .hero_btn {
+        margin-top: 25px;
+    }
+
+    .btn1 {
+        padding: 10px 30px;
+        border-radius: 28px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .btn2 {
+        padding: 10px 30px;
+        border-radius: 28px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .hero_content {
+        text-align: center;
+        align-items: center;
+    }
+
+    .hero_title {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+    }
+
+    .hero_text {
+        max-width: 457px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (max-width:650px) {
+    .btn2{
+        margin-top: 15px;
+    }
+}
