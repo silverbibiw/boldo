@@ -162,6 +162,7 @@ body {
 
 .hero_title {
   color: #FFF;
+  max-width: 567px;
   font-size: 48px;
   font-weight: 400;
   line-height: 72px;
@@ -169,6 +170,7 @@ body {
 
 .hero_text {
   color: #F1F1F1;
+  max-width: 567px;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -268,5 +270,104 @@ body {
 @media screen and (max-width: 650px) {
   .btn2 {
     margin-top: 15px;
+  }
+}
+.market {
+  margin-bottom: 84px;
+}
+
+.market_title {
+  color: #000;
+  max-width: 842px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 84px;
+}
+
+.market_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 80px;
+}
+
+.market_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 24px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+}
+
+.market_inner-title {
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.market_text {
+  color: #777;
+  max-width: 293px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.market_frame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.market_inner-text {
+  max-width: 400px;
+  color: #0A2640;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+@media screen and (max-width: 958px) {
+  .market_title {
+    max-width: 700px;
+    font-size: 44px;
+    line-height: 60px;
+  }
+  .market_list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .passive {
+    display: none;
   }
 }/*# sourceMappingURL=main.css.map */
